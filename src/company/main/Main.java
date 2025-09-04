@@ -13,3 +13,4 @@ public class Main {
         System.out.println("Employee 1: " + emp1.name + ", Role: " + emp1.getRole() + ", Salary: $" + emp1.getSalary());
         System.out.println("Employee 2: " + emp2.name + ", Role: " + emp2.getRole() + ", Salary: $" + emp2.getSalary());
     }
+}
