@@ -28,6 +28,10 @@ class Producto {
     }
 
     public void vender(int cantidadVendida) {
+        if (cantidadVendida <= 0) {
+            System.out.println("La cantidad a vender debe ser mayor que cero.");
+            return;
+        }
         if (cantidadVendida <= cantidad) {
             cantidad -= cantidadVendida;
             System.out.println(cantidadVendida + " unidades de " + nombre + " vendidas.");
@@ -37,6 +41,10 @@ class Producto {
     }
 
     public void reponer(int cantidadReponer) {
+        if (cantidadReponer <= 0) {
+            System.out.println("La cantidad a reponer debe ser mayor que cero.");
+            return;
+        }
         cantidad += cantidadReponer;
         System.out.println(cantidadReponer + " unidades de " + nombre + " repuestas.");
     }
