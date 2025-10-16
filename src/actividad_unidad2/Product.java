@@ -1,4 +1,4 @@
-package actividaduni2otra;
+package actividad_unidad2;
 
 import java.util.ArrayList;
 import java.util.HashMap;

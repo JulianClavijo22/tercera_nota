@@ -1,4 +1,4 @@
-package actividadunidad2;
+package actividad_arreglos_y_listas;
 
 public class Main {
     public static void main(String[] args) {

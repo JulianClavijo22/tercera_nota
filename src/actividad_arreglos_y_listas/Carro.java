@@ -1,4 +1,4 @@
-package actividadunidad2;
+package actividad_arreglos_y_listas;
 
 import java.util.ArrayList;
 
