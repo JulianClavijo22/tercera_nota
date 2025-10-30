@@ -1,0 +1,5 @@
+10,2
+20,4
+30,6
+# Archivo de ejemplo para unidad3 usoadecuadoexcepcion
+Nombres: ejemplo, prueba
